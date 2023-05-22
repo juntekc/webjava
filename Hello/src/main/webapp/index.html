@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+   
+	<h1>인덱스 페이지 입니다.</h1>
+	<p> 내 이름은 <strong>오준택</strong></p>
+	<!-- 웹에서의 절대 경로 (http로 시작함) -->
+	<a href="http://localhost:8888/Hello/sub/play.html">놀러가기</a>
+	<!-- 현재 위치를 기준으로 한 상대경로 -->
+		<a href="/Hello/sub/play.html">놀러가기</a>  <!-- 모르겠으면 이거로 쓰기 -->
+		<a href="sub/play.html">놀러가기</a>
+	<br>
+	<img src="images/kim1.png">
+	<br>
+	<form action="/users/signup" method="post">
+	<label for="id">아이디</label>
+	<input type="text" name="id" id="id"/>
+	<button type="submit">회원가입</button>
+	<!-- 404 오류가 뜨면 경로 다시 확인,아이디 입력후 가입을 누르면 다음 화면을 넘길 수 있는데 
+	(db로 넘어갔다가 응답해야함)그건 자바로 가능함. -->
+	</form>
+</body>
+</html>
