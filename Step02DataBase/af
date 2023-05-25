@@ -1,0 +1,13 @@
+SELECT *FROM member
+
+INSERT INTO member
+(num,name,addr)
+VALUES(member_seq.NEXTVAL, '김구라' , '노량진')
+
+INSERT INTO member
+(num,name,addr)
+VALUES(member_seq.NEXTVAL, '해골' , '행신동')
+
+INSERT INTO member
+(num,name,addr)
+VALUES(member_seq.NEXTVAL, '원숭이' , '상도동');
